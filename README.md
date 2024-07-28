@@ -1,9 +1,9 @@
 # Project OST 🚀
 
-TycoonKitX is a comprehensive kit built in the Verse programming language that emphasizes proper Object-Oriented programming interfaces. It allows users to easily create their own purchasable items, such as computers or any other custom devices, by simply adding one file.
+ProjectOST is a comprehensive kit built in the Verse programming language that emphasizes proper Object-Oriented programming interfaces. It allows users to easily create their own purchasable items, such as computers or any other custom devices, by simply adding one file.
 
-![Build Status](https://img.shields.io/github/workflow/status/Tsaryii/TycoonKitX/CI)
-![License](https://img.shields.io/github/license/Tsaryii/TycoonKitX)
+![Build Status](https://img.shields.io/github/workflow/status/Tsaryii/ProjectOST/CI)
+![License](https://img.shields.io/github/license/Tsaryii/ProjectOST)
 
 
 ## Table of Contents
@@ -20,7 +20,7 @@ TycoonKitX is a comprehensive kit built in the Verse programming language that e
 
 1. Optional -> Clone the repo
    ```sh
-   git clone https://github.com/Tsaryii/TycoonKitX.git
+   git clone https://github.com/Tsaryii/ProjectOST.git
 
 OR
 
