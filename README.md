@@ -34,24 +34,7 @@ OR
 ## Additions
 Creating a new purchaseable is super easy!
 
-1. Create a new file under the purchaseables folder and copy / paste the basic_prop template.
-    ![Screenshot 1](./Images/ExamplePropBuyable.png)
-
-2. Add the new purchaseable to the BaseManager.verse
-    ![Screenshot 2](./Images/BasicPropExample.png)
-
-3. Create a newpurchasetype enum value do step 4 immediatly after
-    ![Screenshot 3](./Images/NewPurchaseType.png)
-
-4. Update the case statements so verse knows what to load
-    ![Screenshot 1](./Images/Case1.png)
-    ![Screenshot 2](./Images/CaseTwo.png)
-    
-5. Ensure the item gets initialized
-    ![Screenshot 4](./Images/Initialize.png)
-
-6. If the item needs to handle a rebirth add it to the rebirthable config
-    ![Screenshot 5](./Images/Onrebirth.png)
+[![Watch the video](https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)
 
 
 
