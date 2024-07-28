@@ -24,14 +24,10 @@ TycoonKitX is a comprehensive kit built in the Verse programming language that e
 2. Create new UEFN / Verse Project
     ```sh 
     Open UEFN
-    
 
 3. Copy paste repo into UEFN / Verse explorer
     ```sh
     TEST
-    
-
-
 
 ## Features
 
@@ -55,7 +51,6 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the GPL 3.0 License. See LICENSE for more information.
 
 ## Acknowledgments
-- Awesome Readme Template
-- Choose an Open Source License
-- GitHub Emoji Cheat Sheet
-- Shields.io
+- Fortnite Docs
+- Open Source Community
+- FNC Discord
