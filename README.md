@@ -49,6 +49,10 @@ Creating a new purchaseable is super easy!
 5. If the item needs to handle a rebirth add it to the rebirthable config
     ![Screenshot 5](./Images/Onrebirth.png)
 
+6. Update the case statements so verse knows what to load
+    ![Screenshot 1](./Images/Case.png)
+    ![Screenshot 2](./Images/Case2.png)
+
 ## Features
 
 Emphasizes proper Object-Oriented programming interfaces
