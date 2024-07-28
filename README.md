@@ -52,6 +52,7 @@ Creating a new purchaseable is super easy!
 6. Update the case statements so verse knows what to load
     ![Screenshot 1](./Images/Case1.png)
     ![Screenshot 2](./Images/Case2.png)
+    
 
 ## Features
 
