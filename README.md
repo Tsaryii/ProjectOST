@@ -40,7 +40,7 @@ Creating a new purchaseable is super easy!
 2. Add the new purchaseable to the BaseManager.verse
     ![Screenshot 2](./Images/BasicPropExample.png)
 
-3. Create a newpurchasetype enum value requires step 4 
+3. Create a newpurchasetype enum value do step 4 immediatly after
     ![Screenshot 3](./Images/NewPurchaseType.png)
 
 4. Update the case statements so verse knows what to load
