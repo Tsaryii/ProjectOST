@@ -40,11 +40,11 @@ Creating a new purchaseable is super easy!
 
 ## Features
 
-Uses a large abstract superclass to allow for child classes to be made easily
-Emphasizes proper Object-Oriented programming interfaces
-Easily create custom purchasable items
-Simple integration by adding a single file
-Extensible and modular design
+-Uses a large abstract superclass to allow for child classes to be made easily
+-Emphasizes proper Object-Oriented programming interfaces
+-Easily create custom purchasable items
+-Simple integration by adding a single file
+-Extensible and modular design
 
 
 ## Contributing
