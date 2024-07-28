@@ -12,7 +12,6 @@ TycoonKitX is a comprehensive kit built in the Verse programming language that e
 - [Realeses](https://github.com/Tsaryii/ProjectOST/releases)
 - [Additions](#additions)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -34,16 +33,19 @@ OR
 ## Additions
 Creating a new purchaseable is super easy!
 
-[![Watch the video]](https://www.youtube.com/watch?v=your_video_id)
+[![Watch the video](https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)
+
 
 
 
 ## Features
 
+Uses a large abstract superclass to allow for child classes to be made easily
 Emphasizes proper Object-Oriented programming interfaces
 Easily create custom purchasable items
 Simple integration by adding a single file
 Extensible and modular design
+
 
 ## Contributing
 
