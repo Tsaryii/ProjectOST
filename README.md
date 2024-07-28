@@ -71,3 +71,49 @@ Awesome Readme Template
 Shields.io
 Choose an Open Source License
 GitHub Emoji Cheat Sheet
+
+2. Navigate to the project directory:
+sh
+cd TycoonKitX
+Follow the setup instructions specific to the Verse programming language environment.
+Usage
+To use TycoonKitX, simply add a new file for your custom item or device. The kit's structure ensures that your additions are seamlessly integrated into the existing framework.
+
+verse
+Copy code
+// Example of adding a new purchasable item
+class CustomDevice extends Device {
+    init() {
+        // Initialization code
+    }
+
+    override function purchase() {
+        // Code to handle purchase logic
+    }
+}
+Features
+Object-Oriented Design: Emphasizes proper OOP principles.
+Easy Customization: Add new items with minimal effort.
+Versatile Use Cases: Suitable for a variety of tycoon-style games.
+Screenshots
+Here are some screenshots showcasing TycoonKitX in action:
+
+
+
+
+Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+License
+Distributed under the MIT License. See LICENSE for more information.
+
+Acknowledgments
+Awesome Readme Template
+Shields.io
+Choose an Open Source License
+GitHub Emoji Cheat Sheet
