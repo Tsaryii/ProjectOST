@@ -43,16 +43,17 @@ Creating a new purchaseable is super easy!
 3. Create a newpurchasetype enum value
     ![Screenshot 3](./Images/NewPurchaseType.png)
 
-4. Ensure the item gets initialized
-    ![Screenshot 4](./Images/Initialize.png)
-
-5. If the item needs to handle a rebirth add it to the rebirthable config
-    ![Screenshot 5](./Images/Onrebirth.png)
-
-6. Update the case statements so verse knows what to load
+4. Update the case statements so verse knows what to load
     ![Screenshot 1](./Images/Case1.png)
     ![Screenshot 2](./Images/CaseTwo.png)
     
+5. Ensure the item gets initialized
+    ![Screenshot 4](./Images/Initialize.png)
+
+6. If the item needs to handle a rebirth add it to the rebirthable config
+    ![Screenshot 5](./Images/Onrebirth.png)
+
+
 
 ## Features
 
