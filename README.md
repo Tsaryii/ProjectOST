@@ -35,21 +35,16 @@ Creating a new purchaseable is super easy simply do the following...
     ![Screenshot 1](./Images/ExamplePropBuyable.png)
 
 2. Add the new purchaseable to the BaseManager.verse
-    ![Screenshot 1](./Images/BasicPropExample.png)
+    ![Screenshot 2](./Images/BasicPropExample.png)
 
 3. Create a newpurchasetype
-    ![Screenshot 1](./Images/NewPurchaseType.png)
+    ![Screenshot 3](./Images/NewPurchaseType.png)
 
 4. Ensure the item gets initialized
-    ![Screenshot 1](./Images/Initialize.png)
+    ![Screenshot 4](./Images/Initialize.png)
 
 5. If the item needs to handle a rebirth add it to the rebirthable config
-    ![Screenshot 1](./Images/OnRebirth.png)
-
-
-    
-
-
+    ![Screenshot 5](./Images/OnRebirth.png)
 
 ## Features
 
