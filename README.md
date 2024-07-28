@@ -31,9 +31,12 @@ OR
 ## Usage
 Creating a new purchaseable is super easy simply do the following...
 
-1. Create a new 
+1. Create a new file under the purchaseables folder and copy / paste the basic_prop template.
+    ![Screenshot 1](./Images/ExamplePropBuyable.png)
 
-2.
+2. Add the new purchaseable to the BaseManager.verse
+    ![Screenshot 1](./Images/BasicPropExample.png)
+
 
 3.
 
