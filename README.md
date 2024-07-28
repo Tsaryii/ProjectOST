@@ -44,7 +44,7 @@ Creating a new purchaseable is super easy simply do the following...
     ![Screenshot 1](./Images/Initialize.png)
 
 5. If the item needs to handle a rebirth add it to the rebirthable config
-![Screenshot 1](./Images/OnRebirth.png)
+    ![Screenshot 1](./Images/OnRebirth.png)
 
 
     
