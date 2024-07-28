@@ -20,6 +20,9 @@ TycoonKitX is a comprehensive kit built in the Verse programming language that e
 1. Optional -> Clone the repo
    ```sh
    git clone https://github.com/Tsaryii/TycoonKitX.git
+
+OR
+
 1. Create new UEFN / Verse Project
     ![Screenshot 1](CreateUEFN.png)
 2. Copy paste repo into UEFN / Verse explorer
