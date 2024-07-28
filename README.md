@@ -62,6 +62,4 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the GPL 3.0 License. See LICENSE for more information.
 
 ## Acknowledgments
-- Fortnite Docs
-- Open Source Community
-- FNC Discord
+- Left empty (for now)
