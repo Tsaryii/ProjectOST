@@ -34,7 +34,7 @@ OR
 ## Additions
 Creating a new purchaseable is super easy!
 
-[![Watch the video](./Images/Purchaseables.jpg)](https://www.youtube.com/watch?v=your_video_id)
+[![Watch the video](./Images/Purchaseables.png)](https://www.youtube.com/watch?v=your_video_id)
 
 
 
