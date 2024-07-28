@@ -4,11 +4,12 @@ TycoonKitX is a comprehensive kit built in the Verse programming language that e
 
 ![Build Status](https://img.shields.io/github/workflow/status/Tsaryii/TycoonKitX/CI)
 ![License](https://img.shields.io/github/license/Tsaryii/TycoonKitX)
-![Realeses](https://github.com/Tsaryii/ProjectOST/releases)
+
 
 ## Table of Contents
 
 - [Installation](#installation)
+- [Realeses](https://github.com/Tsaryii/ProjectOST/releases)
 - [Additions](#additions)
 - [Features](#features)
 - [Screenshots](#screenshots)
