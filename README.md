@@ -29,7 +29,11 @@ OR
 ## Additions
 Creating a new purchaseable is super easy!
 
-[![Watch the video](https://img.youtube.com/vi/ojgnbpQiWuU/0.jpg)](https://www.youtube.com/watch?v=ojgnbpQiWuU)
+1. Watch the video:
+    [![Watch the video](https://img.youtube.com/vi/ojgnbpQiWuU/0.jpg)](https://www.youtube.com/watch?v=ojgnbpQiWuU)
+2. DontForget
+    ![Screenshot 1](./Images/DontForget.png)
+
 
 
 
