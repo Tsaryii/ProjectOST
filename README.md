@@ -38,7 +38,7 @@ Creating a new purchaseable is super easy simply do the following...
     ![Screenshot 2](./Images/BasicPropExample.png)
 
 3. Create a newpurchasetype
-    
+    ![Screenshot 3](./Images/NewPurchaseType.png)
 
 4. Ensure the item gets initialized
     ![Screenshot 4](./Images/Initialize.png)
