@@ -29,7 +29,7 @@ OR
     ![Screenshot 1](./Images/AddedFiles.png)
 
 ## Additions
-Creating a new purchaseable is super easy simply do the following...
+Creating a new purchaseable is super easy!
 
 1. Create a new file under the purchaseables folder and copy / paste the basic_prop template.
     ![Screenshot 1](./Images/ExamplePropBuyable.png)
