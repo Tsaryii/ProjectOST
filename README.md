@@ -29,7 +29,7 @@ OR
 ## Additions
 Creating a new purchaseable is super easy!
 
-[![Watch the video](https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)
+[![Watch the video](https://img.youtube.com/vi/9J5W8SyCciE/0.jpg)](https://www.youtube.com/watch?v=9J5W8SyCciE)
 
 
 
