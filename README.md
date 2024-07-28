@@ -8,7 +8,7 @@ TycoonKitX is a comprehensive kit built in the Verse programming language that e
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Additions](#additions)
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
@@ -28,7 +28,7 @@ OR
 2. Copy paste repo into UEFN / Verse explorer
     ![Screenshot 1](./Images/AddedFiles.png)
 
-## Usage
+## Additions
 Creating a new purchaseable is super easy simply do the following...
 
 1. Create a new file under the purchaseables folder and copy / paste the basic_prop template.
