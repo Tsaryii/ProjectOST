@@ -30,7 +30,7 @@ OR
 Creating a new purchaseable is super easy!
 
 1. Watch the video:
-    ![Watch the video](https://www.youtube.com/watch?v=ojgnbpQiWuU)
+    [Watch the video](https://www.youtube.com/watch?v=ojgnbpQiWuU)
 2. DontForget
     ![Screenshot 1](./Images/DontForget.png)
 
