@@ -31,7 +31,7 @@ Creating a new purchaseable is super easy!
 
 1. [Watch the video](https://www.youtube.com/watch?v=ojgnbpQiWuU)
     
-2. Dont forget to update this
+2. Dont forget to update the Ptype
     ![Screenshot 1](./Images/DontForget.png)
 
 
