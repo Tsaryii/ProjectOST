@@ -28,8 +28,9 @@ OR
 1. Create new UEFN / Verse Project
     ![Screenshot 1](./Images/CreateUEFN.png)
 2. Copy the entire TycoonStomper folder and add it to your project
-    ![Screenshot 1](./Images/AddedFiles.png)
-    ![Screenshot 2](./Images/CreateUEFN.png)
+    ![Screenshot 1](./Images/TycoonStomper.png)
+    ![Screenshot 2](./Images/AddedFiles.png)
+    
 
 ## Additions
 Creating a new purchaseable is super easy!
