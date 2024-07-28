@@ -37,7 +37,7 @@ Creating a new purchaseable is super easy simply do the following...
 2. Add the new purchaseable to the BaseManager.verse
     ![Screenshot 2](./Images/BasicPropExample.png)
 
-3. Create a newpurchasetype
+3. Create a newpurchasetype enum value
     ![Screenshot 3](./Images/NewPurchaseType.png)
 
 4. Ensure the item gets initialized
