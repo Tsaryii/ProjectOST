@@ -24,9 +24,20 @@ TycoonKitX is a comprehensive kit built in the Verse programming language that e
 OR
 
 1. Create new UEFN / Verse Project
-    ![Screenshot 1](CreateUEFN.png)
+    ![Screenshot 1](./Images/CreateUEFN.png)
 2. Copy paste repo into UEFN / Verse explorer
-    ![Screenshot 1](AddedFiles.png)
+    ![Screenshot 1](./Images/AddedFiles.png)
+
+## Usage
+Creating a new purchaseable is super easy simply do the following...
+
+1. Create a new 
+
+2.
+
+3.
+
+
 ## Features
 
 Emphasizes proper Object-Oriented programming interfaces
