@@ -2,7 +2,7 @@
 
 ProjectOST is a comprehensive kit built in the Verse programming language that emphasizes proper Object-Oriented programming interfaces. It allows users to easily create their own purchasable items, such as computers or any other custom devices, by simply adding one file.
 
-![License]([https://img.shields.io/github/license/Tsaryii/TycoonKitX](https://github.com/Tsaryii/ProjectOST/tree/main?tab=GPL-3.0-1-ov-file)
+![License]([https://img.shields.io/github/license/Tsaryii/TycoonKitX](https://github.com/Tsaryii/ProjectOST/tree/main?tab=GPL-3.0-1-ov-file))
 
 ## Table of Contents
 
