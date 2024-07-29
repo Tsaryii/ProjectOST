@@ -46,9 +46,16 @@ OR
 ## Features
 
 - Uses a large abstract superclass to allow for child classes to be made easily
-- Emphasizes proper Object-Oriented programming interfaces
-- Easily create custom purchasable items
-- Extensible and modular design
+- Custom pruchaseables
+  - conveyors
+  - dancefloors
+  - droppers
+  - hitables
+  - npc
+  - shootables
+- verse persistence that can save everything
+- rebirth system
+- easy expansion
 
 
 ## Contributing
