@@ -71,6 +71,7 @@ OR
 - Custom Pet System
 - Trade money between players
 - Audio Intergration
+- Better UI system
 
 
 ## Contributing
