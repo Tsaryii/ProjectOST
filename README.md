@@ -47,15 +47,21 @@ OR
 
 - Uses a large abstract superclass to allow for child classes to be made easily
 - Custom pruchaseables
-  - conveyors
-  - dancefloors
-  - droppers
-  - hitables
-  - npc
-  - shootables
+  - Basic Props
+  - Collectables
+  - Conveyors
+  - Dance Floors
+  - Droppers
+  - Gifts
+  - Hitables
+  - MoneyWheel
+  - NPC Spawners
+  - Shootables
 - verse persistence that can save everything
 - rebirth system
-- easy expansion
+- Infinite custom currencies with ID system
+- Custom UI Config settings
+- Easy Expansion
 
 
 ## Contributing
