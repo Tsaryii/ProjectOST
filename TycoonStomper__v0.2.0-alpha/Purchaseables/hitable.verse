@@ -1,6 +1,7 @@
 using { /Verse.org/Simulation }
 using { /Fortnite.com/Devices }
 using {/Fortnite.com/Teams}
+using {cc}
 hitable_buyable<public>:=class<concrete><final>(purchaseable):
 
     @editable var hitableConfig : unique_hitable_buyable = unique_hitable_buyable{}
@@ -28,10 +29,12 @@ hitable_buyable<public>:=class<concrete><final>(purchaseable):
                 Player := player[Event]
             then:
                     Granter := hitableConfig.OptItemGranter
-                    GrantMoney(Owner, Player, hitableConfig.CurrencyOnHitID, hitableConfig.OnHitGrantAmount)
+                    GrantMoney(Owner, Player, hitableConfig.CurrencyOnHitID, hitableConfig.OnHitGrantAmount, BypassZone)
                     GrantXP(Owner, Player, hitableConfig.OnHitExperienceAmount)
                     Granter.GrantItem(Player)
+                    HudConfig.OnSuccessfullPlayer(Player)
             Sleep(0.0)
+
 
 unique_hitable_buyable:=class<concrete>(Toggleable, Inaugurable):
 

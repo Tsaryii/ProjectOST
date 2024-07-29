@@ -1,6 +1,7 @@
 using { /Verse.org/Simulation }
 using { /Fortnite.com/Devices }
 using { /UnrealEngine.com/Temporary/SpatialMath }
+using {cc}
 
 gift_map := class<concrete>():
     @editable var CurrencyToReceiveID : int = 0
@@ -81,13 +82,8 @@ unique_giftable<public> := class<concrete><final>(Inaugurable, Hostable):
                     then:
                         GlobalHudMessageDevice.SetText(S2M("{Message}"))
                         GlobalHudMessageDevice.Show(Player)
-                    if:
-                        not GiftToReceive.BypassZone?
-                    then: 
-                        GrantMoney(Owner, Player, GiftToReceive.CurrencyToReceiveID, GiftToReceive.GrantAmount)
+                        GrantMoney(Owner, Player, GiftToReceive.CurrencyToReceiveID, GiftToReceive.GrantAmount, GiftToReceive.BypassZone)
                         GrantXP(Owner, Player, GiftToReceive.GrantXPAmount)
-                    else:
-                        BypassedGrantMoney(Owner, Player, GiftToReceive.CurrencyToReceiveID, GiftToReceive.GrantAmount)
 
             else:
                 GlobalSuperlog("No gift to receive")

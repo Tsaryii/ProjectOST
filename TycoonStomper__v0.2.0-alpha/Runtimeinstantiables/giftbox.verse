@@ -9,7 +9,7 @@ using { /Fortnite.com/Devices/CreativeAnimation }
 using { /Fortnite.com/Devices/CreativeAnimation/InterpolationTypes }
 using { /UnrealEngine.com/Temporary/UI }
 using { /UnrealEngine.com/Temporary/SpatialMath }
-
+using {cc}
 
 <#
 
@@ -20,13 +20,8 @@ THIS CODE IS NOT FOR COMMERCIAL USE
 THIS CODE IS NOT FOR COMMERCIAL USE
 THIS CODE IS NOT FOR COMMERCIAL USE
 
--If you are using this code in your own project you do not have permission to publish it.
--You must attain a license from the author of this giftbox to publish a map whilst using this code.
 
-This code is only for educational purposes 
-it should not be used in a commercial project without permission from the original author.
-
-Although I've modified this code, 
+Although I (tsar) have modified this code to funciton with the TycoonStomper project, 
 it wasn't written by me: I purchased it on the internet and I'm sharing it with you.
 
 

@@ -1,6 +1,7 @@
 using { /Verse.org/Simulation }
 using { /Fortnite.com/Devices }
 using {/Fortnite.com/Teams}
+using {cc}
 dancefloor_buyable<public>:=class<concrete><final>(purchaseable):
 
     @editable var dancefloorconfig : unique_dancefloor_buyable = unique_dancefloor_buyable{}
@@ -21,21 +22,21 @@ dancefloor_buyable<public>:=class<concrete><final>(purchaseable):
     Host<override>()<suspends>:void=
         dancefloorconfig.Enable()
         loop{
-            dancefloorconfig.OnEmote.Await()
+            Player := dancefloorconfig.OnEmote.Await()
             race:
                 dancefloorconfig.OnEmoteStop.Await()
-                GrantOvertime()
+                GrantOvertime(Player)
 
         }
-    GrantOvertime()<suspends>:void=
+    GrantOvertime(Agent:agent)<suspends>:void=
         loop:
-            Sleep(dancefloorconfig.EmoteGrantInterval)
-            for:
-                Player : Owner.Players
-            do:
-                GrantMoney(Owner, Player, dancefloorconfig.CurrencyOnEmoteID, dancefloorconfig.OnEmoteIntervalGrantAmount)
-                
+            if:
+                Player := player[Agent]
+            then:
+                Sleep(dancefloorconfig.EmoteGrantInterval)
+                GrantMoney(Owner, Player, dancefloorconfig.CurrencyOnEmoteID, dancefloorconfig.OnEmoteIntervalGrantAmount, BypassZone)
                 GrantXP(Owner, Player, dancefloorconfig.OnEmoteIntervalExperienceAmount)
+                HudConfig.OnSuccessfullPlayer(Player)
 
 unique_dancefloor_buyable:=class<concrete>(Toggleable, Inaugurable):
 
@@ -63,23 +64,18 @@ unique_dancefloor_buyable:=class<concrete>(Toggleable, Inaugurable):
     Initialize<override>(Base:base):void={
         Disable()
         spawn{AwaitEmote(Base)}
+        spawn{AwaitEmoteEnd(Base)}
     }
 
     AwaitEmote(Base:base)<suspends>:void={
         loop:
-            EmoteDetector.AgentBeginsEmotingEvent.Await()
-            for:
-                Player : Base.Players
-            do:
-                OnEmote.Signal(Player)
+            Player := EmoteDetector.AgentBeginsEmotingEvent.Await()
+            OnEmote.Signal(Player)
     }
     AwaitEmoteEnd(Base:base)<suspends>:void={
         loop:
-            EmoteDetector.AgentEndsEmotingEvent.Await()
-            for:
-                Player : Base.Players
-            do:
-                OnEmoteStop.Signal(Player)
+            Player := EmoteDetector.AgentEndsEmotingEvent.Await()
+            OnEmoteStop.Signal(Player)
     }
 
 

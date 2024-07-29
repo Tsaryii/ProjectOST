@@ -1,7 +1,7 @@
 using { /Verse.org/Simulation }
 using { /Fortnite.com/Devices }
 using { /UnrealEngine.com/Temporary/SpatialMath }
-
+using {cc}
 #This script is a template for creating purchasable items in the game. 
 #It is a parent class for all purchasable items and contains all the necessary methods and properties for a purchasable item.
 #It inherits from the Detailable, Hostable,  SuperInaugurable, and Rebirthable interfaces.
@@ -34,6 +34,7 @@ purchaseable<public>:=class<abstract>(Detailable, Hostable, SuperInaugurable, Re
 
     @editable var  Name <public>:  string = "My item name here"
     @editable var  Description <public>: string = "My \nmulti line \nitem description here"
+    
     @editable var  Price <public>: int = {0}
     @editable var  ExperiencePointsToAdd  : int = {0}
     @editable var  CurrencyToSpendID  <public>: int = {0}
@@ -46,14 +47,15 @@ purchaseable<public>:=class<abstract>(Detailable, Hostable, SuperInaugurable, Re
     @editable var  Accolade: accolades_device = accolades_device{}
     @editable var  OnUnlockCinematic : cinematic_sequence_device = cinematic_sequence_device{}
     @editable var  OnPurchaseCinematic : cinematic_sequence_device = cinematic_sequence_device{}
-    @editable var  HudConfig : hud_main = hud_main{}
-    @editable var  ConditionsToBuy : condition = condition{}
-    @editable var  Purchase_Zone : unique_buy_zone = unique_buy_zone{}
-    @editable var  VFX : vfx_main = vfx_main{}
+    @editable var  BypassZone <public> : logic = {false}
     @editable var  UnlockTheseItems : []purchase_set = array{}
     @editable var  PropsToInitialize : []creative_prop = array{}
     @editable var  PropsToShow : []creative_prop = array{}
     @editable var  PropsToHide : []creative_prop = array{}
+    @editable var  HudConfig : hud_main = hud_main{}
+    @editable var  ConditionsToBuy : condition = condition{}
+    @editable var  Purchase_Zone : unique_buy_zone = unique_buy_zone{}
+    @editable var  VFX : vfx_main = vfx_main{}
     
 
     #DO VFX NEXT AND LINK THIS TRANSMIT ON PURCHASE TO YOUR PURCHASE ZONES
@@ -264,7 +266,7 @@ purchaseable<public>:=class<abstract>(Detailable, Hostable, SuperInaugurable, Re
 
         #Adds money to the player's CoinDex for the CurrencyToReceiveID
         MoneyAssocatiedWith_ToReceiveID := AssociatedCurrencies[CurrencyToReceiveID]
-        GrantMoney(Owner, Player, CurrencyToReceiveID, GrantAmount)
+        GrantMoney(Owner, Player, CurrencyToReceiveID, GrantAmount, BypassZone)
         return
     
     
@@ -281,7 +283,7 @@ purchaseable<public>:=class<abstract>(Detailable, Hostable, SuperInaugurable, Re
                 MoneyToReceive := Stats.AssociatedCurrencies[CurrencyToReceiveID]
                 IsPurchased = PurchasedStatus.Purchased
             then:
-                GrantMoney(Owner, Player, CurrencyToReceiveID, GrantAmount)   
+                GrantMoney(Owner, Player, CurrencyToReceiveID, GrantAmount, BypassZone)   
                 Sleep(Interval+0.0)
                 
             else{Print("No interval set for: {Name}; or interval is less than 0.0; returning..."); return}
@@ -321,8 +323,9 @@ purchaseable<public>:=class<abstract>(Detailable, Hostable, SuperInaugurable, Re
             Accolade.Award(Player)
             GrantXP(Owner, Player, ExperiencePointsToAdd)
             set IsPurchased = PurchasedStatus.Purchased
-            #Disables the purchase zone
             HideProps(PropsToHide)
+            
+            Purchase_Zone.OnSuccess(Player)
             Purchase_Zone.Disable()
             
             Result := UnlockDependents(Owner)
@@ -332,9 +335,7 @@ purchaseable<public>:=class<abstract>(Detailable, Hostable, SuperInaugurable, Re
             spawn{Host()}
             VFX.OnEvent()
             
-            #triggers the purchase zone's success event
-            for{Trigger:Purchase_Zone.TransmitToOnSuccess} 
-            do{Trigger.Trigger(Player)};
+            
             
             UpdateAssociatedUnlocks(Player, Ptype, MyIndex)
     FirstBought(Agent:agent):void=

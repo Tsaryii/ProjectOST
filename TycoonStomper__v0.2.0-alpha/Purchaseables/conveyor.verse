@@ -2,6 +2,7 @@ using { /Verse.org/Simulation }
 using { /Fortnite.com/Devices }
 using { /UnrealEngine.com}
 using { /UnrealEngine.com/Temporary/SpatialMath }
+using {cc}
 conveyor_buyable<public> := class<concrete><final>(purchaseable):
 
     @editable var ConveyorConfig <public>: unique_conveyor = unique_conveyor{}

@@ -1,6 +1,7 @@
 using { /Verse.org/Simulation }
 using { /Fortnite.com/Devices }
 using {/Fortnite.com/Teams}
+using {cc}
 shootable_buyable<public>:=class<concrete><final>(purchaseable):
 
     @editable var shootableConfig : unique_shootable_buyable = unique_shootable_buyable{}
@@ -30,11 +31,11 @@ shootable_buyable<public>:=class<concrete><final>(purchaseable):
                     Event(1)?
                     Amount := Round[shootableConfig.OnHitGrantAmount * shootableConfig.BullseyeMultiplier]
                 then:
-                    GrantMoney(Owner, Player, shootableConfig.CurrencyOnHitID, Amount)
+                    GrantMoney(Owner, Player, shootableConfig.CurrencyOnHitID, Amount, BypassZone)
                     GrantXP(Owner, Player, shootableConfig.OnHitExperienceAmount)
                     Granter.GrantItem(Player)
                 else:
-                    GrantMoney(Owner, Player, shootableConfig.CurrencyOnHitID, shootableConfig.OnHitGrantAmount)
+                    GrantMoney(Owner, Player, shootableConfig.CurrencyOnHitID, shootableConfig.OnHitGrantAmount, BypassZone)
                     GrantXP(Owner, Player, shootableConfig.OnHitExperienceAmount)
                     Granter.GrantItem(Player)
 

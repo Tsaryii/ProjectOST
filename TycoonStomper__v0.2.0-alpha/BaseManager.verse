@@ -4,6 +4,8 @@ using {Purchaseables}
 using {/Fortnite.com/Teams}
 using {Runtimeinstantiables}
 using {HudSystem}
+using {cc}
+using {Stomper}
 #Defines what a 'Team' is and how it functions.
 base:=class<concrete>(SuperInaugurable, Rebirthable):
 
@@ -219,7 +221,8 @@ base:=class<concrete>(SuperInaugurable, Rebirthable):
             
         set Players = array{}
         if:
-            set UniqueID = CreateID[15]
+            tempid := CreateID[15]
+            set UniqueID = tempid
         then:
             Owner.SL.Superlog("Base ID is {UniqueID}")
         return

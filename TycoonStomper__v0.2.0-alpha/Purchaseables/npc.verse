@@ -2,6 +2,7 @@ using { /Verse.org/Simulation }
 using { /Fortnite.com/Devices }
 using { /UnrealEngine.com}
 using { /UnrealEngine.com/Temporary/SpatialMath }
+using {cc}
 npc_buyable<public>:=class<concrete><final>(purchaseable):
 
     @editable var NPCSpawnerConfig : unique_npc_spawner = unique_npc_spawner{}
@@ -25,9 +26,10 @@ npc_buyable<public>:=class<concrete><final>(purchaseable):
                 Player := player[Agent]
                 Granter := NPCSpawnerConfig.OptItemGranter?
             then:
-                GrantMoney(Owner, Player, NPCSpawnerConfig.CurrencyOnKillID, NPCSpawnerConfig.OnKillGrantAmount)
+                GrantMoney(Owner, Player, NPCSpawnerConfig.CurrencyOnKillID, NPCSpawnerConfig.OnKillGrantAmount, BypassZone)
                 GrantXP(Owner, Player, NPCSpawnerConfig.OnKillExperienceAmount)
                 Granter.GrantItem(Player)
+                HudConfig.OnSuccessfullPlayer(Player)
             
         
 unique_npc_spawner<public>:=class<concrete>(Toggleable, Inaugurable):
@@ -52,6 +54,7 @@ unique_npc_spawner<public>:=class<concrete>(Toggleable, Inaugurable):
                 Agent := InteractionResult.Source?
             then:
                 OnKill.Signal(Agent)
+                
 
 
 
