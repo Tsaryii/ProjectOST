@@ -67,7 +67,7 @@ OR
 - Custom Purchase styles
 - Easy Expansion
 
-### Planned
+### Planned for 0.3-alpha
 - Custom Pet System
 - Trade money between players
 - Audio Intergration
