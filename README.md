@@ -22,7 +22,7 @@ OR
 
 1. Create new UEFN / Verse Project
     ![Screenshot 1](./Images/CreateUEFN.png)
-2. Copy the entire TycoonStomper folder and paste it into your project through file explorer
+2. Download this projects Zip folder. Extract it, then copy paste the 'TycoonStompter' folder into your uefn projects contents.
     ![Screenshot 1](./Images/TycoonStomper.png)
     
 
