@@ -28,7 +28,7 @@ OR
     
 
 ## Additions
-Creating a new purchaseable is super easy!
+### new Purchaseable
 
 1. [Watch the video](https://www.youtube.com/watch?v=ojgnbpQiWuU)
     
