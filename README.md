@@ -24,6 +24,7 @@ OR
     ![Screenshot 1](./Images/CreateUEFN.png)
 2. [Download](https://github.com/Tsaryii/ProjectOST/archive/refs/heads/main.zip) & copy paste 'TycoonStomper' into your project.
     ![Screenshot 1](./Images/TycoonStomper.png)
+3. Build verse code and enjoy!
     
 
 ## Additions
