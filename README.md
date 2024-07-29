@@ -35,7 +35,9 @@ OR
 2. Dont forget to update the Ptype
     ![Screenshot 1](./Images/DontForget.png)
 ### Suggest Feature or Bug Fix
-[Go Here](https://github.com/Tsaryii/ProjectOST/discussions/1)
+1. [Discussion Form](https://github.com/Tsaryii/ProjectOST/discussions/1)
+
+2. Write your suggestions or bug fix! 
 
 
 
