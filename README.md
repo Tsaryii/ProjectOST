@@ -28,13 +28,13 @@ OR
     
 
 ## Additions
-### New purchaseable
+### - New purchaseable
 
 1. [Watch the video](https://www.youtube.com/watch?v=ojgnbpQiWuU)
     
 2. Dont forget to update the Ptype
     ![Screenshot 1](./Images/DontForget.png)
-### Suggest Feature or Bug Fix
+### - Suggest Feature or Bug Fix
 1. [Discussion Form](https://github.com/Tsaryii/ProjectOST/discussions/1)
 
 2. Write your suggestions or bug fix! 
