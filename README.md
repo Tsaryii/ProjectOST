@@ -28,7 +28,7 @@ OR
     
 
 ## Additions
-### new Purchaseable
+### New purchaseable
 
 1. [Watch the video](https://www.youtube.com/watch?v=ojgnbpQiWuU)
     
