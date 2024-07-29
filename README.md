@@ -22,7 +22,7 @@ OR
 
 1. Create new UEFN / Verse Project
     ![Screenshot 1](./Images/CreateUEFN.png)
-2. [Download](https://github.com/Tsaryii/ProjectOST/archive/refs/heads/main.zip) & copy paste the 'TycoonStomper' folder into your project.
+2. [Download](https://github.com/Tsaryii/ProjectOST/archive/refs/heads/main.zip) & copy paste 'TycoonStomper' into your project.
     ![Screenshot 1](./Images/TycoonStomper.png)
     
 
