@@ -61,7 +61,16 @@ OR
 - rebirth system
 - Infinite custom currencies with ID system
 - Custom UI Config settings
+- Custom XP System
+- Hide / Show Props
+- Custom Animations
+- Custom Purchase styles
 - Easy Expansion
+
+# Planned
+- Custom Pet System
+- Trade money between players
+- Audio Intergration
 
 
 ## Contributing
