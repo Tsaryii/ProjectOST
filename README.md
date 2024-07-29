@@ -67,7 +67,7 @@ OR
 - Custom Purchase styles
 - Easy Expansion
 
-# Planned
+### Planned
 - Custom Pet System
 - Trade money between players
 - Audio Intergration
