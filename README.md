@@ -34,8 +34,7 @@ WARNING
    1. ![Screenshot 1](./Images/warning.png)
 
    2. If you see this change the TycoonStomper.StroklessBG reference to StroklessBG
-
-   3. ![Screenshot 1](./Images/Strokless.png)
+    ![Screenshot 1](./Images/Strokless.png)
    
 
 ## Additions
