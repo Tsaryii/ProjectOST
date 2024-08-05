@@ -7,6 +7,9 @@ npc_buyable<public>:=class<concrete><final>(purchaseable):
 
     @editable var NPCSpawnerConfig : unique_npc_spawner = unique_npc_spawner{}
     var Ptype <override> :  PurchaseableType = PurchaseableType.NPCBuyable
+
+
+
     Initialize<override>(Hostess:base, I:int):void=
         #Calls the parent class's Initialize method
         (super:)Initialize(Hostess, I)
@@ -24,13 +27,12 @@ npc_buyable<public>:=class<concrete><final>(purchaseable):
             Agent := NPCSpawnerConfig.OnKill.Await()
             if:
                 Player := player[Agent]
-                Granter := NPCSpawnerConfig.OptItemGranter?
             then:
                 GrantMoney(Owner, Player, NPCSpawnerConfig.CurrencyOnKillID, NPCSpawnerConfig.OnKillGrantAmount, BypassZone)
                 GrantXP(Owner, Player, NPCSpawnerConfig.OnKillExperienceAmount)
-                Granter.GrantItem(Player)
                 HudConfig.OnSuccessfullPlayer(Player)
-            
+                if(ItemGranter := NPCSpawnerConfig.OptItemGranter?){ItemGranter.GrantItem(Player)}
+
         
 unique_npc_spawner<public>:=class<concrete>(Toggleable, Inaugurable):
     @editable var NPCSpawner : npc_spawner_device = npc_spawner_device{}
