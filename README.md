@@ -33,9 +33,7 @@ OR
 WARNING
    1. ![Screenshot 1](./Images/warning.png)
 
-   2. If you see this change the TycoonStomper.StroklessBG reference to StroklessBG 
-    (How it should look when done)
-    ![Screenshot 1](./Images/Strokless.png)
+   2. If you see this change the TycoonStomper.StroklessBG reference to StroklessBG
    
 
 ## Additions
