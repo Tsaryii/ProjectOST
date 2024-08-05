@@ -69,11 +69,12 @@ OR
 - Easy Expansion
 
 ### Planned for 0.3-alpha
-
 - Audio Intergration
 - Better UI system
-- Trade money between players ~tbd 
-- More than 1 pet at a time. ~tbd 
+
+### Planned ~tbd
+- Trade money between players 
+- More than 1 pet at a time. 
 
 
 ## Contributing
