@@ -33,7 +33,7 @@ OR
 ## Additions
 ### - New purchaseable
 
-1. [Watch the video](https://www.youtube.com/watch?v=ojgnbpQiWuU)
+1. [Step by step Video Guide](https://www.youtube.com/watch?v=ojgnbpQiWuU)
     
 2. Dont forget to update the Ptype
     ![Screenshot 1](./Images/DontForget.png)
