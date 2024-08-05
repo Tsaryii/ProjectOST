@@ -25,7 +25,10 @@ OR
 2. [Download](https://github.com/Tsaryii/ProjectOST/archive/refs/heads/main.zip) & copy paste 'TycoonStomper' into your project.
     ![Screenshot 1](./Images/TycoonStomper.png)
 3. Build verse code and enjoy!
-    
+
+OR
+   1. [Watch the instructional video](https://www.youtube.com/watch?v=q2OvY_Gq5Bk)
+   
 
 ## Additions
 ### - New purchaseable
