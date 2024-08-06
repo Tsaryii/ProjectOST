@@ -76,8 +76,8 @@ WARNING
 - Custom Animations
 - Custom Purchase styles
 - Easy Expansion
--Number Truncation
--Toggle props visibility based on money
+- Number Truncation
+- Toggle props visibility based on money
 
 ### Planned for 0.3-alpha
 - Audio Intergration
