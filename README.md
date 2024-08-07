@@ -1,4 +1,4 @@
-# Project OST 0.2.2-alpha🚀
+# Project OST 0.3.0-alpha🚀
 
 ProjectOST is a comprehensive kit built in the Verse programming language that emphasizes proper Object-Oriented programming interfaces. It allows users to easily create their own purchasable items, such as computers or any other custom devices, by simply adding one file.
 
@@ -78,15 +78,17 @@ WARNING
 - Easy Expansion
 - Number Truncation
 - Toggle props visibility based on money
-
-### Planned for 0.3-alpha
 - Audio Intergration
-- Better UI system
 
-### Planned ~tbd
+### Planned for 0.4-alpha
+- Better UI system
+- Computers
+
+### Planned ~1.0-release
 - Trade money between players 
 - More than 1 pet at a time. 
-
+- Fully Functioning Coop
+- More purchaseables
 
 ## Contributing
 
