@@ -1,6 +1,6 @@
 # Supported Versions
 
-## I promise atleast 6 months of support for each version.
+## Atleast 6 months of support for each version is my goal.
 
 |  Version  | Supported          |
 |  -------  | ------------------ |
