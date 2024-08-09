@@ -2,13 +2,12 @@
 
 ProjectOST is a comprehensive kit built in the Verse programming language that emphasizes proper Object-Oriented programming interfaces. It allows users to easily create their own purchasable items, such as computers or any other custom devices, by simply adding one file.
 
-## Support Server
-Support server officially out if you're having any issues go here for a quicker response!
-https://discord.gg/9nSeYugf
+
 
 
 ## Table of Contents
 
+- [Support-Server](#support-server)
 - [Installation](#installation)
 - [Realeses](https://github.com/Tsaryii/ProjectOST/releases)
 - [Additions](#additions)
@@ -16,6 +15,10 @@ https://discord.gg/9nSeYugf
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+## Support-Server
+Support server officially out if you're having any issues go here for a quicker response!
+https://discord.gg/9nSeYugf
 
 ## Installation
 
