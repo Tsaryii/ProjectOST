@@ -2,13 +2,13 @@ using { /Verse.org/Simulation }
 using { /Fortnite.com/Devices }
 using { /UnrealEngine.com}
 using { /UnrealEngine.com/Temporary/SpatialMath }
-
+using {cc}
 
 unique_collectable<public> := class<concrete>(Inaugurable, Detailable):
 
     @editable Name : string = "My Collectable Group"
     @editable Description : string = "My Collectable Group's Description"
-
+    @editable var  BypassZone <public> : logic = {false}
     @editable Collectables : []collectible_object_device = array{}
     @editable CurrencyToGiveID : int = 0
     @editable CurrencyToGiveAmount : int = 0
@@ -36,7 +36,7 @@ unique_collectable<public> := class<concrete>(Inaugurable, Detailable):
             if:
                 Player:= player[Agent]
             then:
-                GrantMoney(Base:=Hostess, Player, GrantID:=CurrencyToGiveID, Amount:=CurrencyToGiveAmount)
+                GrantMoney(Base:=Hostess, Player, GrantID:=CurrencyToGiveID, Amount:=CurrencyToGiveAmount, BypassZone)
                 UpdateXP(Player, ExperiencePointsToAdd)
 
         

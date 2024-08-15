@@ -1,7 +1,7 @@
 using { /Verse.org/Simulation }
 using { /Fortnite.com/Devices }
 using { /UnrealEngine.com/Temporary/SpatialMath }
-
+using {cc}
 
 unique_moneywheel<public> := class<concrete><final>(Inaugurable, Hostable):
 
@@ -45,5 +45,7 @@ unique_moneywheel<public> := class<concrete><final>(Inaugurable, Hostable):
                 for:
                     Player : Owner.Players
                 do:
-                    GrantMoney(Owner, Player, GiftToReceive.CurrencyToReceiveID, GiftToReceive.GrantAmount)
+                    GrantMoney(Owner, Player, GiftToReceive.CurrencyToReceiveID, GiftToReceive.GrantAmount, false)
                     GrantXP(Owner, Player, GiftToReceive.GrantXPAmount)
+            else:
+                GlobalSuperlog("Moneywheel gave an invalid result")

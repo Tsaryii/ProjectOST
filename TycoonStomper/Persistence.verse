@@ -1,4 +1,5 @@
 using { /Verse.org/Simulation }
+using {cc}
 #Defines the player profile data class and the map that stores it
 player_profile_data := class<final><persistable>:
     Version:int = 0

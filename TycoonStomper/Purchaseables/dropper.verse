@@ -1,7 +1,7 @@
 using { /Verse.org/Simulation }
 using { /Fortnite.com/Devices }
 using { /UnrealEngine.com/Temporary/SpatialMath }
-
+using {cc}
     unique_dropper<public> := class<concrete>():
 
         @editable var ConveyorID : int = {0}
@@ -65,7 +65,7 @@ using { /UnrealEngine.com/Temporary/SpatialMath }
                 for:
                     Player : Hostess.Players
                 do:
-                    GrantMoney(Hostess, Player, DropperConfig.RewardID, DropperConfig.RewardAmount)
+                    GrantMoney(Hostess, Player, DropperConfig.RewardID, DropperConfig.RewardAmount, BypassZone)
         }
 
 

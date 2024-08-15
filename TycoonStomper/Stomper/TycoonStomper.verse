@@ -1,14 +1,15 @@
 using{/Fortnite.com/Devices}
 using { /Verse.org/Simulation }
 using { /Verse.org/Random }
+using {cc}
 
-tycoon_stomper := class(creative_device):
+tycoon_stomper <public> := class(creative_device):
 
 
 
-    @editable var Bases : []base = array{}
+    @editable var Bases <public> : []base = array{}
 
-    @editable var SL : log = log{}
+    @editable var SL <public> : log = log{}
     
 
     #When the game starts, tell the bases to start / initialize
@@ -16,9 +17,6 @@ tycoon_stomper := class(creative_device):
         for(I -> Base:Bases):
             Base.OnBegin(I)
             set Base.Owner = Self
-
-    #REBIRTH IDEA
-    #JUST CREATE AN INSTANCE OF THE BASE AND IF A PLAYER LEAVES JUST SPAWN IN THAT NEW INSTANCE
 
             
                

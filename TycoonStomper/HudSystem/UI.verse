@@ -6,6 +6,7 @@ using { /UnrealEngine.com/Temporary/UI }
 using { /UnrealEngine.com/Temporary/SpatialMath }
 using { /Fortnite.com/UI }
 using { /Verse.org/Random }
+using {cc}
 currency_ui<public>:=class():
     Player<public>:player
     Configs<public>:[]currency_ui_config  
