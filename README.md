@@ -103,7 +103,7 @@ WARNING
 - New Dropper system [Done]
 - Custom billboard system [Done]
 - Major Bug Fixes [Done afaik]
-Suggest a feature on our [Discord!](https://discord.gg/R87aPX78Fa)
+- Suggest a feature on our [Discord!](https://discord.gg/R87aPX78Fa)
 
 ### Planned ~1.0-release
 - Trade money between players 
