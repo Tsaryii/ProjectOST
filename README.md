@@ -97,9 +97,12 @@ WARNING
 - Toggle props visibility based on money
 - Audio Intergration
 
-### Planned for 0.4-alpha
+### Planned for 0.4-alpha (8/TBD/2024)
 - Better UI system
-- Computers
+- Computers 
+- New Dropper system [Done]
+- Custom billboard system [Done]
+- Major Bug Fixes [Done afaik]
 
 ### Planned ~1.0-release
 - Trade money between players 
