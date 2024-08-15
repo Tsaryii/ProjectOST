@@ -97,7 +97,7 @@ WARNING
 - Toggle props visibility based on money
 - Audio Intergration
 
-### Planned for 0.4-alpha (8/TBD/2024)
+### Planned for 0.4-alpha `(8/31/2024)`
 - Better UI system
 - Computers 
 - New Dropper system [Done]
