@@ -101,8 +101,7 @@ WARNING
 - Better UI system
 - Computers 
 - New Dropper system [Done]
-- Custom billboard system [Done]
-- Major Bug Fixes [Done afaik]
+- Custom billboard system [in 0.3.5]
 - Suggest a feature on our [Discord!](https://discord.gg/R87aPX78Fa)
 
 ### Planned ~1.0-release
