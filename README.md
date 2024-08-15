@@ -16,14 +16,18 @@ ProjectOST is a comprehensive kit built in the Verse programming language that e
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-## Support-Server
+## [Support-Server](https://discord.gg/9nSeYugf)
 Support server officially out if you're having any issues go here for a quicker response!
-https://discord.gg/9nSeYugf
 
 
-## Wiki
+## [Intructional Setup Guide](https://www.youtube.com/watch?v=q2OvY_Gq5Bk)
+Learn how you can setup Project OST in your own UEFN level.
+
+
+
+## [Wiki](https://github.com/Tsaryii/ProjectOST/wiki)
 Wiki is WIP but has many useful pages!
-https://github.com/Tsaryii/ProjectOST/wiki
+
 
 ## Installation
 
