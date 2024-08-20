@@ -1,5 +1,5 @@
-# Project OST 🚀 | [Video Guide](https://www.youtube.com/watch?v=q2OvY_Gq5Bk&t=405s) | [Discord Server](https://discord.gg/R87aPX78Fa)
-#### 0.3.2-alpha
+# Project OST 🚀 | [Video Guide](https://www.youtube.com/watch?v=q2OvY_Gq5Bk&t=405s) | [Discord Server](https://discord.gg/R87aPX78Fa) | [Experimental Branch](https://github.com/Tsaryii/ProjectOST-dev/tree/main)
+#### 0.3.2-alpha | 
 ProjectOST is a comprehensive kit built in the Verse programming language that emphasizes proper Object-Oriented programming interfaces. It allows users to easily create their own purchasable items, such as computers or any other custom devices, by simply adding one file.
 
 
@@ -27,6 +27,11 @@ Learn how you can setup Project OST in your own UEFN level.
 
 ## [Wiki](https://github.com/Tsaryii/ProjectOST/wiki)
 Wiki is WIP but has many useful pages!
+
+
+## [0.3.5 on Experimental Branch](https://github.com/Tsaryii/ProjectOST-dev/tree/main)
+The Experimental Branch is updated usually multiple times a day and is the most up-to-date but will be quite buggy as it gets updated with every change I make.
+
 
 
 ## Installation
