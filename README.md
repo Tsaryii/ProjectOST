@@ -1,7 +1,7 @@
 ![TierBanner](https://github.com/user-attachments/assets/bf05d53f-bb8e-4571-9762-e61778cecac7)
 # Project OST 🚀 | [Video Guide](https://www.youtube.com/watch?v=q2OvY_Gq5Bk&t=405s) | [Discord Server](https://discord.gg/R87aPX78Fa)
 
-#### 0.3.2-alpha
+#### 0.3.9-alpha
 ProjectOST is a comprehensive kit built in the Verse programming language that emphasizes proper Object-Oriented programming interfaces. It allows users to easily create their own purchasable items, such as computers or any other custom devices, by simply adding one file.
 
 
@@ -102,11 +102,11 @@ WARNING
 - Toggle props visibility based on money
 - Audio Intergration
 
-### Planned for 0.4-alpha `(8/31/2024)`
+### Planned for 0.4-alpha
 - Better UI system
 - Computers 
-- New Dropper system [Done]
-- Custom billboard system [in 0.3.5]
+- New Dropper system [in 0.3.9]
+- Custom billboard system [in 0.3.5+]
 - Suggest a feature on our [Discord!](https://discord.gg/R87aPX78Fa)
 
 ### Planned ~1.0-release
