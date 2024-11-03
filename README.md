@@ -32,9 +32,6 @@ Learn how you can setup Project OST in your own UEFN level.
 Wiki is WIP but has many useful pages!
 
 
-## [0.4.0 pre-release on Experimental Branch](https://github.com/Tsaryii/ProjectOST-dev/tree/main)
-The Experimental Branch is updated usually multiple times a day and is the most up-to-date but will be quite buggy as it gets updated with every change I make.
-
 
 
 ## Installation
