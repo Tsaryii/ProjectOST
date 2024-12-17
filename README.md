@@ -1,7 +1,7 @@
 ![TierBanner](https://github.com/user-attachments/assets/bf05d53f-bb8e-4571-9762-e61778cecac7)
 # Project OST 🚀 | [Video Guide](https://www.youtube.com/watch?v=q2OvY_Gq5Bk&t=405s) | [Discord Server](https://discord.gg/R87aPX78Fa)
 
-#### 0.3.9-alpha
+#### 0.3.6-experimental
 ProjectOST is a comprehensive kit built in the Verse programming language that emphasizes proper Object-Oriented programming interfaces. It allows users to easily create their own purchasable items, such as computers or any other custom devices, by simply adding one file.
 
 
