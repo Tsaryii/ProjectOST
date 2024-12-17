@@ -105,7 +105,7 @@ WARNING
 ### Planned for 0.4-alpha
 - Better UI system
 - Computers 
-- New Dropper system [in 0.3.9]
+- New Dropper system [in 0.3.6+]
 - Custom billboard system [in 0.3.5+]
 - Suggest a feature on our [Discord!](https://discord.gg/R87aPX78Fa)
 
