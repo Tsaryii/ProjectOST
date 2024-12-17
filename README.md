@@ -19,7 +19,7 @@ ProjectOST is a comprehensive kit built in the Verse programming language that e
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-## [Support-Server](https://discord.gg/9nSeYugf)
+## [Support-Server](https://discord.gg/R87aPX78Fa)
 Support server officially out if you're having any issues go here for a quicker response!
 
 
