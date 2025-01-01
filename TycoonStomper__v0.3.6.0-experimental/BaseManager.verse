@@ -172,6 +172,10 @@ base<public>:=class<concrete>(SuperInaugurable, Rebirthable, Runtime, StringRetu
                 Base_Setup.HudConfig.OnSuccessfullPlayer(Player)
                 UI := currency_ui{Player:=Player,  Configs:=UIConfig, owner:=Self}
                 UI.Create()
+
+                #Updates rebirth currency in UI
+                UpdateAssociatedCurrencies(Player,Base_Setup.RebirthConfig.RebirthCurrencyID,PlayerStats.Rebirths,Base_Setup.PersistenceCore)
+
                 spawn{AwaitUIDestroy(UI)}
                 if:
                     Base_Setup.PersistUnlocks?
