@@ -3,7 +3,7 @@
 
 # Project OST 🚀 
 [![YouTube Guide](https://img.shields.io/badge/Video_Guide-Playlist-red?logo=youtube)](https://www.youtube.com/watch?v=q2OvY_Gq5Bk&t=405s)
-[![Discord](https://img.shields.io/discord/1060402730025369730?label=Discord%20Server&logo=discord&color=7289da)](https://discord.gg/R87aPX78Fa)
+[![Discord](https://img.shields.io/discord/1060402730025369730?label=Discord%20Server&logo=discord&color=7289da)]([https://discord.gg/R87aPX78Fa](https://discord.gg/R87aPX78Fa))
 [![GitHub release](https://img.shields.io/github/v/release/Tsaryii/ProjectOST?label=Latest%20Release)](https://github.com/Tsaryii/ProjectOST/releases)
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
