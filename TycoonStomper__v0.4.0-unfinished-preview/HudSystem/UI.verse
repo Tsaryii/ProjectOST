@@ -48,7 +48,7 @@ currency_ui<public>:=class():
             else if:
                 ActiveHud := CAM[Player]?
                 ParsedID := ID?
-                ParsedID = -1 or AlphaText = "Rebirths"
+                ParsedID = -1 or Name = "Rebirths"
                 PlayerStats := GetCoreStats[Player, owner.Base_Setup.PersistenceCore]
                 PlayerCurrency:=PlayerStats.Rebirths
             then:
