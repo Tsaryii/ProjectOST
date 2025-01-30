@@ -33,7 +33,7 @@ currency_ui<public>:=class():
 
 
 
-    ManageUI<public>(CAM: [agent]?text_block, ID:?int)<suspends>:void=
+    ManageUI<public>(CAM: [agent]?text_block, ID:?int, Name:string)<suspends>:void=
         var timeout:int = 0
         timeoutlimit:int=100
         loop:
@@ -43,6 +43,14 @@ currency_ui<public>:=class():
                 ParsedID := ID?
                 PlayerStats := GetCoreStats[Player, owner.Base_Setup.PersistenceCore]
                 PlayerCurrency := PlayerStats.AssociatedCurrencies[ParsedID]
+            then:
+                ActiveHud.SetText(S2M("{PlayerCurrency.GetTrunc(owner)}"))
+            else if:
+                ActiveHud := CAM[Player]?
+                ParsedID := ID?
+                ParsedID = -1 or AlphaText = "Rebirths"
+                PlayerStats := GetCoreStats[Player, owner.Base_Setup.PersistenceCore]
+                PlayerCurrency:=PlayerStats.Rebirths
             then:
                 ActiveHud.SetText(S2M("{PlayerCurrency.GetTrunc(owner)}"))
             else:
@@ -111,7 +119,7 @@ currency_ui<public>:=class():
 
             var CurrencyAmount: [agent]?text_block = map{}
             if(set CurrencyAmount[Player] = option{ActiveCash}){}
-            spawn{ManageUI(CurrencyAmount, Config.CurrencyID)}
+            spawn{ManageUI(CurrencyAmount, Config.CurrencyID, Config.AlphaText)}
 
             var PerSecond: [agent]?text_block = map{}
             if(set PerSecond[Player] = option{ActivePS}){}

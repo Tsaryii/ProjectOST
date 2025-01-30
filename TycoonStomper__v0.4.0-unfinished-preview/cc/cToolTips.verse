@@ -21,7 +21,7 @@ PersistCurrenciesTT<localizes><public>:message="Allow users currencies' to save 
 PersistUnlocksTT<localizes><public>:message="Allow users base unlocks' to save when leaving and load when re-joining"
 DecimalTruncationTT<localizes><public>:message="Specifies decimal percision -> 0 converts 1,539 to 1k, 1 converts 1,539 to 1.5k, etc."
 PurchaseableConfigTT<localizes><public>:message="A customazible purchaseable unique to this base that will automatically be purchased when the based is claimed. \n To have a base claimer such as those in versions before 0.3, simply use the Purchase_Zone here."
-
+RebirthHudTT<localizes><public>:message="Specifies the hud for Rebirth Currencies. Changing the id from -1 will break the rebirth fetch; so, don't do that."
 #base tooltips
 BaseTT<localizes><public>:message="Specifies all the bases in the game, you do not need to use more than 1 TycoonStomper."
 

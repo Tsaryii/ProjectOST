@@ -35,6 +35,7 @@ using {cc}
 
 
 rebirth_main<public>:=class<concrete>(Inaugurable, PlayerSpecificStringReturnables):
+    @editable {ToolTip:=RebirthHudTT} var RebirthHud <public>: ?currency_ui_config = currency_ui_config{CurrencyID:=-1, AlphaText="Rebirths"}
     @editable var RebirthButton <public>: button_device = button_device{}
     @editable var RebirthCashMultiplier<public> : float = 1.5
     @editable var RebirthCost <public> : float = 1000.0

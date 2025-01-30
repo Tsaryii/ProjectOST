@@ -194,6 +194,10 @@ base<public>:=class<concrete><unique>(SuperInaugurable, Rebirthable, Runtime, St
                 for(Collectable:Collectables){Collectable.Show(Self)}
                 Base_Setup.HudConfig.Initialize(Self)
                 Base_Setup.HudConfig.OnSuccessfullPlayer(Player)
+                if:
+                    RebirthHud := Base_Setup.RebirthConfig.RebirthHud?
+                then:
+                    set UIConfig += array{RebirthHud}
                 UI := currency_ui{Player:=Player,  Configs:=UIConfig, owner:=Self}
                 UI.Create()
                 spawn{AwaitUIDestroy(UI)}
