@@ -38,7 +38,6 @@ rebirth_main<public>:=class<concrete>(Inaugurable, PlayerSpecificStringReturnabl
     @editable var RebirthButton <public>: button_device = button_device{}
     @editable var RebirthCashMultiplier<public> : float = 1.5
     @editable var RebirthCost <public> : float = 1000.0
-    @editable var RebirthCurrencyID <public> : int = 0  # Currency ID to show rebirths in UI
     @editable var RebirthCostCurrencyID <public> : int = 0
     @editable var RebirthCostMultiplier <public> : float = 1.5
     @editable var HudConfig <public> : hud_main = hud_main{OnFailedMessage := option{"Failed to rebirth you need [RebirthAmountNeeded]"}; OnSuccessMessage := option{"You have rebirthed! Every 100 now = [RebirthCashMultiplier]"}}
