@@ -40,7 +40,7 @@ var UsingTimeout<public>:weak_map(session, float) = map{}
 
 
 log<public>:=class<concrete>():
-    @editable{ToolTip:=DevVersionTT} var DevVersion : ActiveVersion = ActiveVersion.Beta_0_3_7_0
+    @editable{ToolTip:=DevVersionTT} var DevVersion : ActiveVersion = ActiveVersion.Beta_0_4_0_0
     @editable{ToolTip:=BackwardsCompatibilityTT} var BackwardsCompatibility: BackwardsCompatible = BackwardsCompatible.Beta_0_3_6_0
     @editable {ToolTip:=BaseClaimTT} var BaseClaimType <public> : BaseClaimTypeEnum = BaseClaimTypeEnum.Manual
     @editable{ToolTip:=GlobalDebugToolsTT} var GlobalDebugTools:logic=false
