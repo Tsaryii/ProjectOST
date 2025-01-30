@@ -142,7 +142,7 @@ BaseClaimTypeEnum<public>:=enum:
 #Beta_1_0_0_0
 
 ActiveVersion <public>:=enum:
-    Beta_0_3_7_0
+    Beta_0_4_0_0
 
 
 BackwardsCompatible <public>:=enum:
