@@ -1,4 +1,3 @@
-
 using { /Verse.org/Random }
 using { /Fortnite.com/Devices }
 using { /Verse.org/Simulation }

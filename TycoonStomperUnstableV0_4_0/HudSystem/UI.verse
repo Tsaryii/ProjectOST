@@ -123,7 +123,7 @@ currency_ui<public>:=class():
                 Slots := array:
                     overlay_slot:
                         Widget := texture_block:
-                            DefaultImage := TycoonStomper.StroklessBG
+                            DefaultImage := StroklessBG
                             DefaultTint := Config.Backgroundcolor
                             DefaultDesiredSize := vector2{X:=32.0, Y:=55.0}
                         HorizontalAlignment := horizontal_alignment.Fill
