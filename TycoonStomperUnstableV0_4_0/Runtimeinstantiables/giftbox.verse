@@ -1,4 +1,3 @@
-
 using { /Verse.org/Assets }
 using { /Verse.org/Colors }
 using { /Verse.org/Simulation }
