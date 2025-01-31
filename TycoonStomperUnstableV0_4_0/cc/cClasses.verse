@@ -83,7 +83,7 @@ Super<public>:=module{
 }
 
 currency_config <public>:=class<concrete><unique>(Inaugurable, Detailable):
-    @editable var Name : string = ""
+    @editable var Name <public> : string = ""
     @editable var Display : billboard_device = billboard_device{}
     @editable var MaybeCollectionZone : ?anyzone_or_atm = false
     @editable var VFX : vfx_main = vfx_main{}

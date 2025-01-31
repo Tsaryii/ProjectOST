@@ -365,7 +365,7 @@ purchaseable<public>:=class<abstract>(Detailable, Hostable, SuperInaugurable, Re
         if:
             Player := MaybeP?
             Owner := MaybeOwner?
-            Stats := PlayerStats := GetCoreStats[Player, Owner.Base_Setup.PersistenceCore]
+            Stats := GetCoreStats[Player, Owner.Base_Setup.PersistenceCore]
         then:
             if:
                 MoneyNeeded := Price - Stats.AssociatedCurrencies[CurrencyToSpendID]

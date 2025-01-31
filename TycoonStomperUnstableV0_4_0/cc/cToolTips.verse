@@ -26,4 +26,7 @@ PurchaseableConfigTT<localizes><public>:message="A customazible purchaseable uni
 BaseTT<localizes><public>:message="Specifies all the bases in the game, you do not need to use more than 1 TycoonStomper."
 
 
-
+# exchangeableConfig 
+FromCurrencyTT<localizes><public>:message="Which currency id will the user input"
+ToCurrencyTT<localizes><public>:message="Which currency will the user receive after using the exchange"
+ExchangeRateTT<localizes><public>:message="Specifies how much currency the user will lose / gain. \n For example, if the exchange rate is 1.1 and the user inputs 100 they'll receive 110 of the `To` currency."

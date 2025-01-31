@@ -57,6 +57,9 @@ base<public>:=class<concrete><unique>(SuperInaugurable, Rebirthable, Runtime, St
     #Dance floors that the base has.
     @editable var DanceFloors: []dancefloor_buyable = array{}
 
+    #Allows exhcnaging currencies
+    @editable var Exchanger: []purchaseable_exchanger = array{}
+
     #The conveyors that the base has.
     @editable var Droppers: []purchaseable_dropper = array{}
 
@@ -108,6 +111,7 @@ base<public>:=class<concrete><unique>(SuperInaugurable, Rebirthable, Runtime, St
             Hitables, 
             Shootables, 
             DanceFloors, 
+            Exchanger,
             Pets
         }
 

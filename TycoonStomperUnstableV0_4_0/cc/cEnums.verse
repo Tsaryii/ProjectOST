@@ -53,6 +53,7 @@ PurchaseableType  <public> := enum<persistable>:
     Computer
     DanceFloor
     Dropper
+    Exchanger
     NPCBuyable
     Shootable
     Hitable
@@ -90,6 +91,8 @@ ClaimFauilreReason <public> := enum:
         PurchaseableType.Conveyor => return "Conveyor"
 
         PurchaseableType.Dropper => return "Dropper"
+
+        PurchaseableType.Exchanger => return "Exchanger"
 
         PurchaseableType.NPCBuyable => return "NPCBuyable"
 

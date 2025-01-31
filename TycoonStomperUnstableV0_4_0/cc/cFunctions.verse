@@ -131,7 +131,7 @@ GetConveyorConfig<public>(Base:base, ID:int)<decides><transacts>:custom_conveyor
         Prim[0].ConveyorConfig
     }
 #Returns the currency config of a bases currency ID
-GetCurrencyConfig(Base:base, CurrencyID:int)<decides><transacts>:currency_config=
+GetCurrencyConfig<public>(Base:base, CurrencyID:int)<decides><transacts>:currency_config=
     {
         Prim := for:
             I -> C:Base.Currencies
@@ -231,7 +231,7 @@ PreventInf<public>()<suspends>:void=
 
 ITF(value:int)<transacts>:float=value*1.0
 
-DecimalTrunc(value:float, decimals:int)<transacts>:string=
+DecimalTrunc<public>(value:float, decimals:int)<transacts>:string=
 
     if:
         StrValue := "{value}"
