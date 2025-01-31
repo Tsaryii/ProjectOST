@@ -192,6 +192,11 @@ Load<public>(B:base, Purchaseable:PurchaseableType, I:int):void=
 
 (Item:purchaseable).Load(Player:player):void={Item.OnBought(Player)}
 
+(Player:player).PurchaseBase<public>(FreeBase:base):void=
+        FreeBase.OnBought(Player), 
+        Print("BaseName: {FreeBase.Base_Setup.Name}")
+        FreeBase.Base_Setup.PurchaseableConfigs.Purchase_Zone.PlayerEntersEvent.Signal(Player);
+        spawn{FreeBase.Base_Setup.PurchaseableConfigs.Purchase_Zone.RetryPlayerEntersEvent(Player)}
         
 
 PreventInf<public>()<suspends>:void=

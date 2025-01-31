@@ -109,7 +109,8 @@ tycoon_stomper <public> := class(creative_device):
 
     FillRandomBase(Player:player):void=
         if{FreeBase:=UnclaimedBases[GetRandomInt(0, UnclaimedBases.Length-1)]}
-        then{FreeBase.OnBought(Player)}
+        then{Player.PurchaseBase(FreeBase)}
+        
 
     FillTPRandomBase(Player:player)<suspends>:void=
         if
@@ -123,10 +124,12 @@ tycoon_stomper <public> := class(creative_device):
             then
             {
                 
-                FreeBase.OnBought(Player); Sleep(1.0)
+                Player.PurchaseBase(FreeBase)
                 if. FortCharacter.TeleportTo[FinalTranslation, rotation{}]
             }
     
+
+
     ManageBaseTeleport()<suspends>:void=
         for:
             Player:GetPlayspace().GetPlayers()
