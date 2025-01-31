@@ -1,7 +1,7 @@
 
 ![Project OST Banner](https://github.com/user-attachments/assets/bf05d53f-bb8e-4571-9762-e61778cecac7)
 
-# Project OST ⚡
+# Project OST DEV⚡
 
 > **Version**: `0.4.0-unstable`  
 > **License**: [GPL 3.0](LICENSE)  
