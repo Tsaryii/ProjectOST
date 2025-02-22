@@ -395,9 +395,9 @@ purchaseable<public>:=class<abstract>(Detailable, Hostable, SuperInaugurable, Re
             I -> ItemSet:UnlockTheseItems
         do:
             if:
-                PurchaseableData := FetchPurchaseableFromPtypeDex[ItemSet.Type, Base, I]
+                PurchaseableData := FetchPurchaseableFromPtypeDex[ItemSet.Type, Base, ItemSet.Index]
             then:
-                PurchaseableData(0).Unlock
+                PurchaseableData(0).Unlock()
             else:
                 GlobalSuperlog("")
                 set anyfailures = true; set failures += 1
